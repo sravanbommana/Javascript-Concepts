@@ -8,3 +8,18 @@ map.set(collection, "array")
 for(let [key, value] of map) {
   console.log(key, value)
 }
+
+//loop over keys and values
+for(const [key, value] of map.entries()) {
+  console.log(key, value)
+}
+
+//loop over keys 
+for(const key of map.keys()) {
+  console.log("Key", key)
+}
+
+//loop over values 
+for(const value of map.values()) {
+  console.log("value", value)
+}
